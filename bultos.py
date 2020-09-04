@@ -38,7 +38,7 @@ for p in pesos_bultos:
 			pesado = max(pesos_bultos_carga)	
 			liviano = min(pesos_bultos_carga)			
 
-			peso_total += p
+			peso_total = sum(pesos_bultos_carga)
 			prom = peso_total/cantidad
 
 			precio_aux = precio_b(p)
